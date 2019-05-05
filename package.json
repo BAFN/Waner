@@ -1,7 +1,7 @@
 {
-  "name": "switchblade",
+  "name": "Waner",
   "version": "1.0.0",
-  "description": "The multi-purpose Discord bot",
+  "description": "Le bot du serveur Waner",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -25,12 +25,12 @@
   "keywords": [
     "discord"
   ],
-  "author": "Switchblade Team",
+  "author": "Waner Team",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SwitchbladeBot/switchblade/issues"
+    "url": "https://github.com/BAFN/Waner/issues"
   },
-  "homepage": "https://github.com/SwitchbladeBot/switchblade#readme",
+  "homepage": "https://github.com/BAFN/Waner",
   "dependencies": {
     "abort-controller": "^2.0.3",
     "bufferutil": "^4.0.1",
