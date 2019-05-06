@@ -6,7 +6,7 @@ const Loaders = require('./loaders')
  * @constructor
  * @param {Object} options - Options for the client
  */
-module.exports = class Switchblade extends Client {
+module.exports = class Waner extends Client {
   constructor (options = {}) {
     super(options)
     this.canvasLoaded = options.canvasLoaded
