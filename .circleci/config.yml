@@ -28,7 +28,7 @@ jobs:
       - image: alpine/git
     steps:
       - checkout
-      - run: git remote add dokku dokku@$DOKKU_SERVER_ADDRESS:waner-$CIRCLE_BRANCH
+      - run: git remote add dokku dokku@$DOKKU_SERVER_ADDRESS:Waner-$CIRCLE_BRANCH
       - run: ssh-keyscan -H $DOKKU_SERVER_ADDRESS >> ~/.ssh/known_hosts
       - run: git push -q -f dokku $CIRCLE_BRANCH:master
 
